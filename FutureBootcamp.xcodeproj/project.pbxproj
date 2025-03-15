@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF11AC3F2D8562460027EEFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF11AC392D8562460027EEFA /* Preview Assets.xcassets */; };
+		EF11AC402D8562460027EEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF11AC3B2D8562460027EEFA /* Assets.xcassets */; };
+		EF11AC412D8562460027EEFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11AC3C2D8562460027EEFA /* ContentView.swift */; };
+		EF11AC422D8562460027EEFA /* FutureBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11AC3D2D8562460027EEFA /* FutureBootcampApp.swift */; };
+		EF11AC442D85739B0027EEFA /* FutureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11AC432D85739B0027EEFA /* FutureViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF11AC282D85623E0027EEFA /* FutureBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF11AC392D8562460027EEFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF11AC3B2D8562460027EEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF11AC3C2D8562460027EEFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF11AC3D2D8562460027EEFA /* FutureBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureBootcampApp.swift; sourceTree = "<group>"; };
+		EF11AC432D85739B0027EEFA /* FutureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF11AC2A2D85623E0027EEFA /* FutureBootcamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FutureBootcamp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF11AC252D85623E0027EEFA /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		EF11AC1F2D85623E0027EEFA = {
 			isa = PBXGroup;
 			children = (
-				EF11AC2A2D85623E0027EEFA /* FutureBootcamp */,
+				EF11AC3E2D8562460027EEFA /* FutureBootcamp */,
 				EF11AC292D85623E0027EEFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,26 @@
 				EF11AC282D85623E0027EEFA /* FutureBootcamp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF11AC3A2D8562460027EEFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF11AC392D8562460027EEFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF11AC3E2D8562460027EEFA /* FutureBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				EF11AC432D85739B0027EEFA /* FutureViewModel.swift */,
+				EF11AC3C2D8562460027EEFA /* ContentView.swift */,
+				EF11AC3D2D8562460027EEFA /* FutureBootcampApp.swift */,
+				EF11AC3B2D8562460027EEFA /* Assets.xcassets */,
+				EF11AC3A2D8562460027EEFA /* Preview Content */,
+			);
+			path = FutureBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF11AC2A2D85623E0027EEFA /* FutureBootcamp */,
 			);
 			name = FutureBootcamp;
 			packageProductDependencies = (
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF11AC3F2D8562460027EEFA /* Preview Assets.xcassets in Resources */,
+				EF11AC402D8562460027EEFA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF11AC412D8562460027EEFA /* ContentView.swift in Sources */,
+				EF11AC422D8562460027EEFA /* FutureBootcampApp.swift in Sources */,
+				EF11AC442D85739B0027EEFA /* FutureViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
